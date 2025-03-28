@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "nome": "Valderis",
+    "tipo": "Reino",
+    "descricao": "Capital sob os Três Sóis, ameaçada pela névoa.",
+    "contos": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "Floresta dos Espelhos",
+    "tipo": "Floresta",
+    "descricao": "Onde a névoa reflete memórias distorcidas.",
+    "contos": [
+      2
+    ]
+  }
+]

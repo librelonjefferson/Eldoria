@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "titulo": "A Espada do Crepúsculo e o Destino de Eldoria",
+    "personagens": [
+      1,
+      3
+    ], // IDs dos personagens
+    "locais": [
+      "Valderis",
+      "Floresta Espectral"
+    ],
+    "resumo": "Eryon descobre seu destino como portador da Espada do Crepúsculo.",
+    "arquivo": "pages/contos/espada.md" // Caminho para o texto completo
+  },
+  {
+    "id": 2,
+    "titulo": "A Filha da Névoa",
+    "personagens": [
+      2,
+      4
+    ],
+    "locais": [
+      "Valthen",
+      "Ruínas de Nihalar"
+    ],
+    "resumo": "Liora enfrenta seu legado para controlar a névoa.",
+    "arquivo": "pages/contos/nevoa.md"
+  }
+]

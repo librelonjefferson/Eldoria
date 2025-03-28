@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nome": "Eryon",
+    "classe": "Ferreiro/Herói",
+    "origem": "Dravenhall",
+    "afiliacao": "Guardiões da Luz",
+    "descricao": "Ex-ferreiro que empunhou a Espada do Crepúsculo.",
+    "contos": [
+      1
+    ], // IDs dos contos onde aparece
+    "imagem": "assets/images/eryon.jpg"
+  },
+  {
+    "id": 2,
+    "nome": "Liora",
+    "classe": "Névoalente",
+    "origem": "Valthen",
+    "afiliacao": "Ponte da Névoa",
+    "descricao": "Última herdeira do clã que controla a névoa.",
+    "contos": [
+      2
+    ],
+    "imagem": "assets/images/liora.jpg"
+  }
+]
