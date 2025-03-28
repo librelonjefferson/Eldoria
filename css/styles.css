@@ -1,0 +1,84 @@
+/* Importando as fontes */
+    @import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
+
+/* Definição das cores */
+:root {
+    --roxo-escuro: #2C1E4A;
+    --verde-esmeralda: #2E8B57;
+    --bege-antigo: #F5E6C8;
+    --vermelho-medieval: #CE4257;
+    --azul-claro: #97C8EB;
+}
+
+/*  Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: 'Merriweather', serif;
+    background-color: var(--bege-antigo);
+    color: var(--roxo-escuro);
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    background-color: var(--roxo-escuro);
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--bege-antigo);
+    font-size: 1.2rem;
+    font-family: 'Uncial Antiqua', cursive;
+}
+
+/* Banner */
+#banner {
+    background-color: var(--verde-esmeralda);
+    color: var(--bege-antigo);
+    padding: 50px 20px;
+}
+
+#banner h1 {
+    font-family: 'Uncial Antiqua', cursive;
+    font-size: 2.5rem;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: var(--vermelho-medieval);
+    color: var(--bege-antigo);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Navegação Rápida */
+#navegacao {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 30px;
+}
+
+.card {
+    background-color: var(--azul-claro);
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+}
